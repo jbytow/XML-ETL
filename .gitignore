@@ -20,6 +20,10 @@ Desktop.ini
 # Excel temp files
 ~$*.xlsx
 
-# Confidential company data
-input/
-output/
+# Confidential company data - ignore contents but keep folder structure
+input/*
+output/*
+!input/xml/
+input/xml/*
+!input/xml/.gitkeep
+!output/.gitkeep
