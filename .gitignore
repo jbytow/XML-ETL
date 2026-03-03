@@ -27,3 +27,6 @@ output/*
 input/xml/*
 !input/xml/.gitkeep
 !output/.gitkeep
+!output/xml/
+output/xml/*
+!output/xml/.gitkeep
